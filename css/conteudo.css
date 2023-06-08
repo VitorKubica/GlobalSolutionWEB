@@ -1,0 +1,122 @@
+@import url(../css/estilo.css);
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.introindex{
+    height: 80vh;
+    background: url(../img/Cópia\ de\ background\ \(6\).png);
+    display: flex;
+    flex-direction: column;
+}
+
+.introindex h2{
+    margin-top: 12%;
+    color: #fff;
+    
+}
+
+.introindex p{
+    margin-inline: 14%;
+    color: #fff;
+}
+
+.grafico{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.grafico h2{
+    margin-top: 4%;
+    color: #362418;
+}
+
+.grafico p{
+    margin-inline: 10%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    color: #362418;
+}
+
+.todasleis{
+    background: #2F9248;
+}
+
+
+.leis{
+    display: flex;
+}
+
+.leis h2{
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.lei2{
+    margin-top: 1%;
+}
+
+.lei1 p, .lei2 p, .todasleis p {
+    font-size: 20px;
+}
+
+.todasleis{
+    height: 100%;
+}
+.todasleis h2{
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+
+.todasleis p{
+    font-size: 20px;
+    margin-inline: 10%;
+}
+
+.final{
+    padding-bottom: 5%;
+}
+
+.introindex1{
+    background-color: #362418;
+}
+
+.introindex1 h2{
+    margin-inline: 10%;
+    padding-top: 5%;
+}
+.introindex1 p{
+    font-size: 20px;
+    margin-inline: 10%;
+    padding-bottom: 5%;
+}
+
+.ex1{
+    background-color: #362418;
+}
+
+.titulo3{
+    padding: 3%;
+}
+
+@media (max-width: 830px){
+    .introindex{
+        height: 40vh;
+    }
+    .card{
+        height: 10vh;
+    }
+}
+
+@media (max-width: 500px){
+    section h2{
+        font-size: 22px;
+    }
+    section p{
+        font-size: 16px;
+    }
+}
