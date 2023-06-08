@@ -36,3 +36,21 @@
     transition: 0.5s;
     font-size: 3.3em;
 }
+
+@media (max-width: 830px){
+    .cabecalho .pags a {
+        text-decoration: none;
+        color: #fcfcfc;
+        font-size: 1.5em;
+        font-family: 'Towards', sans-serif;
+    }
+}
+
+@media (max-width: 500px){
+    .cabecalho .pags a {
+        text-decoration: none;
+        color: #fcfcfc;
+        font-size: 1em;
+        font-family: 'Towards', sans-serif;
+    }
+}
