@@ -1,0 +1,116 @@
+
+.conteudo2 h2, .conteudo2 p{
+    color:#275e34 ;
+}
+.introducao, .pagro, .conserv,.usoagua,.introducao2, .conserv, .filosofia, .exemplos,.card,.ex, .image-container2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section h2{
+    color: #ffffff;
+    font-family:"Gotham HTF", sans-serif;
+    font-size: 43px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+div p{
+    color: #fff;
+    font-family:"Gotham HTF", sans-serif ;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+div video{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    filter: brightness(0.5);
+    object-fit: cover;
+}
+
+.introducao{
+    height: 80vh;
+}
+
+.introducao h2{
+    margin-top: 12%;
+    color: #fff;
+    
+}
+
+.introducao p{
+    margin-inline: 14%;
+    color: #fff;
+}
+
+.pratica h2{
+    margin-top: 16%;
+    margin-inline: 14%;
+
+}
+
+.pagro{
+    flex-direction: unset;
+}
+
+.pagro h2{
+    margin-top: 10%;
+    text-align: right;
+}
+.pagro p{
+    margin-right: 14%;
+    margin-bottom: 5%;
+    text-align: right;
+    
+}
+.conserv{
+    background: #275e34;
+    flex-direction: unset;
+}
+.conserv p{
+   margin-bottom: 16%;
+}
+.conserv h2, .conserv p{
+    text-align: left;
+    margin-right: 14%;
+    margin-left: 15%;
+    color: #fff;
+}
+
+.usoagua{
+    flex-direction: unset;
+}
+
+.usoagua img{
+    margin-top: 8%;
+}
+
+.usoagua h2, .usoagua p{
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: right;
+}
+
+.ex h2{
+    margin-top: 10%;
+}
+
+.ex p{
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+
+.ex p span{
+    font-style: italic;
+}
+.exemplos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+}
+
