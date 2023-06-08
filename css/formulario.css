@@ -1,0 +1,106 @@
+@import url(./estilo.css);
+
+.conteudo6{
+    display: flex;
+    flex-direction: column;
+    background-color: #422919;
+}
+.titform{
+  margin-top: 5%;
+  margin-inline: 10%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90vh;
+    /* max-width: 660px; */
+    background-color: #5f412e;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    align-self: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+  }
+  
+  .message {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 5px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 2em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .input01 {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 5px;
+  }
+  
+  .form label .input01 + span {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    color: grey;
+    font-size: 2em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input01:placeholder-shown + span {
+    top: 40px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input01:focus + span,.form label .input01:valid + span {
+    top: 50px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input01:valid + span {
+    color: green;
+  }
