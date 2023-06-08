@@ -134,3 +134,20 @@ html{
     width: 550px;
     height: 500px;
 }
+
+@media (max-width: 800px){
+    .introducao1 p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px){
+    .introducao1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    img{
+        display: none;
+    }
+}
