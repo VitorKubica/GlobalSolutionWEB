@@ -1,0 +1,32 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #2F9248;
+    bottom: 0;
+    width: 100%;
+    height: 40vh;
+    align-items: center;
+    position: relative;
+    bottom: 0%;
+}
+
+.rodape div{
+    background-color: #2F9248;
+}
+.rodape h2{
+    color: #fff;
+    font-family: 'Towards', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.rodape div p{
+    color: #fff;
+    font-family:'Towards', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 2%;
+}
