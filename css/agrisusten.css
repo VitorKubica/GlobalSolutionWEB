@@ -114,3 +114,150 @@ div video{
     height: 100%;
 }
 
+.exemplos p{
+    font-size: 18px;
+}
+
+.exemplos h2{
+    margin-top: 6%;
+}
+
+.exemplos {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto ;
+    justify-content: space-around;
+    align-items: center;
+    width: 330px;
+    height: 180px;
+} 
+
+
+.card{
+    width: 300px;
+    background-color: #f1eaea;
+    border: 1px solid #201f20;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 8px;
+    margin-bottom: 5%;
+    min-height: 70vh;
+    height: 100%;
+}
+
+.card h2{
+    margin-top: 4%;
+    font-size: 26px;
+    text-align: center;
+    color: #275e34;
+}
+
+.card p{
+    color: #275e34; 
+    font-size: 20px;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card:hover p{
+    color: #fff;
+    transition: 1s;
+}
+
+.card:hover h2{
+    color: #fff;
+    transition: 1s;
+}
+
+.card:hover{
+    border: 1px solid #275e34;
+    background-color:#2F9248 ;
+    transition: 1s;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.image-container img {
+    margin-left: 14%;
+    width: 570px;
+    height: 400px;
+}
+
+.image-container2{
+    margin-left: 10%;
+}
+
+.image-container2 img {
+    margin-right: 10%;
+    height: 400px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.ex{
+    background: url(../img/fundocard.png);
+    background-size: cover;
+}
+
+.introducao2{
+    background: url(../img/Cópia\ de\ background\ \(3\).png);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.introducao2 h2{
+    margin-top: 12%;
+    color: #fff;
+    
+}
+
+.introducao2 p{
+    margin-inline: 14%;
+    color: #fff;
+}
+
+.image-container2 iframe{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.txt3{
+    margin-top: 7%;
+}
+.filosofia{
+    background: #0f0905;
+}
+
+.filosofia h2{
+    margin-inline: 10%;
+    margin-top: 5%;
+    text-align: left;
+    font-style: italic;
+    color: #fff;
+}
+.filosofia p{
+    margin-bottom: 5%;
+    text-align: left;
+    margin-left: 10%;
+    color: #fff;
+}
+
+@media (max-width: 800px){
+    
+}
+
+@media (max-width: 500px){
+    
+}
