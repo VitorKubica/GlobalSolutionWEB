@@ -103,3 +103,20 @@
     padding: 3%;
 }
 
+@media (max-width: 830px){
+    .introindex{
+        height: 40vh;
+    }
+    .card{
+        height: 10vh;
+    }
+}
+
+@media (max-width: 500px){
+    section h2{
+        font-size: 22px;
+    }
+    section p{
+        font-size: 16px;
+    }
+}
